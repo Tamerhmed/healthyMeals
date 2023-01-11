@@ -4,8 +4,8 @@
      left:0;
      width:100%;
      height:5rem;
-     background-color: #8a2b06;
-     color:white;
+     background-color: #fff;
+     color:#88c45c;
      display: flex;
      justify-content:space-between;
      align-items:center;
@@ -16,14 +16,14 @@
 
 .main-image {
      width:100%;
-     height: 25rem;
+     height: 100%;
      z-index: 0;
      overflow: hidden;
 }
 
 .main-image img {
-     width: 110%;
-     height:100%;
+     width: 100%;
+     height:85vh;
      object-fit: cover;
-     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+     /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
 }
